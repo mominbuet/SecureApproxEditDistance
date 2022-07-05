@@ -31,7 +31,7 @@ As its a maven built project, the commands to compile
 
 ## Running the Program
 ```
-./runserver.sh db1.fa 2 & ./run_researcher.sh query.fa 2 127.0.0.1 20
+./run_server.sh db1.fa 2 & ./run_researcher.sh query.fa 2 127.0.0.1 20
 ```
 Here on run_server parameters are db.fa which is the file containing the database and 1/2 stands protocol 1 or both
 run_researcher parameters are query.fa which is the file containing the query, 1/2 stands protocol 1 or both, ip of the server and 20 is the limit.
